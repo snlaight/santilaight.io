@@ -23,13 +23,12 @@ const contactMe = (req, res)=>{
        
     }
 
-    transporter.sendMail(emailInfo, ((err,info)=>{
+   return transporter.sendMail(emailInfo, ((err,info)=>{
         if(err)
         console.log(err)
         else
         console.log(info)
     }))
-res.status(200).json(req)
 }
 
 export default contactMe;

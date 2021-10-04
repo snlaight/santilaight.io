@@ -11,6 +11,8 @@ const contactMe = (req, res)=>{
             user:"emailsantilaight@gmail.com",
             pass:'superSecurePassword123'
         },
+        connectionTimeout: 60.000,
+        
 
     })
     const emailInfo = {

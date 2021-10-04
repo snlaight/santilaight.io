@@ -14,7 +14,7 @@ const contactMe = (req, res)=>{
 
     })
     const emailInfo = {
-        from :"santilaight.io Email Bot",
+        from :"emailsantilaight@gmail.com",
         to:'snlaight10@gmail.com',
         subject:`Message from ${req.body.name}`,
         text:`${req.body.message}. 

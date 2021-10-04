@@ -37,7 +37,7 @@ const dropdownHandler = () => {
                             </a>
                         </div>
                         <div>
-                            <a onClick={() => router.push("/landingPage")} className="cursor-pointer text-base hover:text-gray-300 focus:outline-none focus:text-gray-300 font-semibold leading-none text-white">
+                            <a onClick={() => router.push("/")} className="cursor-pointer text-base hover:text-gray-300 focus:outline-none focus:text-gray-300 font-semibold leading-none text-white">
                                 <p>Work</p>
                             </a>
                         </div>
@@ -49,11 +49,11 @@ const dropdownHandler = () => {
                     </div>
                     <div className="flex justify-center items-center space-x-6">
                         <div className="flex justify-center items-center rounded-lg">
-                            <FaGithub size={32} color="#d1d5db" className="" />
+                            <FaGithub size={32} color="#d1d5db" className="" href="https://github.com/snlaight" />
                         
                         </div>
                         <div className="flex justify-center items-center rounded-lg">
-                        <FaLinkedin size={32} color="d1d5db" className="" />
+                        <FaLinkedin size={32} color="d1d5db" className="" href="https://www.linkedin.com/in/santiago-laight/" />
                         </div>
                     </div>
                 </div>

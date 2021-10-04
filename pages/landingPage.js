@@ -193,7 +193,7 @@ const dropdownHandler = () => {
                             </div>
                             <div className="px-8 py-10 mt-4 bg-gray-800 flex  justify-start items-start flex-col rounded">
                                 <div className="">
-                                    <p className="text-xs font-medium leading-3 text-white">Full-Stack Application</p>
+                                    <p className="text-xs font-medium leading-3 text-white">VanillaJS Application</p>
                                 </div>
                                 <div className="md:mt-2">
                                     <p className="text-2xl md:text-3xl font-semibold lg:leading-7  text-white">FOOTABLE</p>

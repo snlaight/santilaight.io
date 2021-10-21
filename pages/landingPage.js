@@ -69,7 +69,7 @@ const dropdownHandler = () => {
                 <div className="hidden md:flex justify-between items-center pt-16 mb-12">
                     <div className="flex flex-row items-center space-x-10">
                         <div>
-                            <a onClick={() => router.push("landingPage")} className="cursor-pointer text-base hover:text-gray-300 focus:outline-none focus:text-gray-300 font-semibold leading-none text-white">
+                            <a onClick={() => router.push("/")} className="cursor-pointer text-base hover:text-gray-300 focus:outline-none focus:text-gray-300 font-semibold leading-none text-white">
                                 <p>Intro</p>
                             </a>
                         </div>
